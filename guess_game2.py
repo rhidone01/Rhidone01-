@@ -5,10 +5,7 @@ while play_again != 'n':
     guess_range = int(input('The Computer should guess a number from 1-: '))
     low = 1
     high = guess_range
-    
-    
     computer_guess = rd.randint(1,guess_range)
-    
     feedback = ''
     lives = 5
 
@@ -33,7 +30,6 @@ while play_again != 'n':
     else:
         fb = input(f'Is {low} too high(h), too low(l) or correct(c)?: ')
         if fb == 'c':
-            
             print(f'Yay! Computer guessed the number {low} correctly.')
         else:
             print(f'Based on the feedbacks provided the number is {low}')
