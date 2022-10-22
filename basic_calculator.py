@@ -16,5 +16,5 @@ while Calculate != 'n':
     else:
         print('Invalid Operator')
     print(f'= {result}')
-    Calculate = input('Calculate y/n:\n')
-print('OFF')
+    Calculate = input(' To alculate press "y" then enter, if not press "n": ')
+print('BYE')
