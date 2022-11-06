@@ -6,6 +6,3 @@ def group_anagram(a):
         sorted_word = ''.join((i))
         dfdict[sorted_word].append(i)
     return dfdict.values()
-
-words = ['tea','car','net','bat','ten','eat','arc','tab','ate']
-print(group_anagram(words))
